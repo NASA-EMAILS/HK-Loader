@@ -26,9 +26,4 @@ if [ -z "$start_cmd" ]; then
   exit 1
 fi
 
-echo "
-█░█ █▄▀ ▄▄ █░░ █▀█ ▄▀█ █▀▄ █▀▀ █▀█
-█▀█ █░█ ░░ █▄▄ █▄█ █▀█ █▄▀ ██▄ █▀▄
-                                 v1.0.0
-Repo : https://github.com/SilentDemonSD/HK-Loader By SilentDemonSD"
 eval "$start_cmd"
